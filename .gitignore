@@ -4,3 +4,7 @@ data/
 *.iml
 .vscode/
 .DS_Store
+
+# Variaveis de ambiente locais (use o .env.example como base)
+.env
+.env.local
