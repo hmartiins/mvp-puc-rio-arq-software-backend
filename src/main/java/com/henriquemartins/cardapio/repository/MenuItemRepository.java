@@ -1,0 +1,11 @@
+package com.henriquemartins.cardapio.repository;
+
+import com.henriquemartins.cardapio.model.MenuItem;
+import java.time.LocalDate;
+import java.util.List;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface MenuItemRepository extends JpaRepository<MenuItem, Long> {
+
+    List<MenuItem> findByWeekRefOrderByDayOfWeekAscMealTypeAsc(LocalDate weekRef);
+}

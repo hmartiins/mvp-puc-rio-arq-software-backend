@@ -1,0 +1,11 @@
+# Perfil de conveniencia: sobe a API sem depender de um PostgreSQL rodando.
+# Os dados ficam num arquivo H2 em ./data/cardapio.mv.db.
+spring:
+  datasource:
+    url: jdbc:h2:file:./data/cardapio;DB_CLOSE_DELAY=-1
+    username: sa
+    password: ""
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
