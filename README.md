@@ -4,7 +4,7 @@ API REST que monta o cardápio da semana e transforma esse cardápio numa **list
 
 Este é o componente **API Back-End** do Cenário 1.1: é ele — e somente ele — quem conversa com a API externa [TheMealDB](https://www.themealdb.com/api.php). O Front-End nunca chama a externa diretamente.
 
-- Repositório do Front-End: <https://github.com/SEU-USUARIO/cardapio-semanal-front>
+- Repositório do Front-End: <https://github.com/hmartiins/mvp-puc-rio-arq-software-frontend>
 
 ## Arquitetura
 
